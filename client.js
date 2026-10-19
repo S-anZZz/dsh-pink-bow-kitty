@@ -53,10 +53,10 @@ window.__ModuleLoader__.load({
     const WALLPAPER_CSS = [
       'html{background-color:#ffe9f2}',
       'html:has(body[data-ds-dark-theme]){background-color:#2a1520}',
-      'body{background-color:#ffe9f2 !important;background-image:linear-gradient(rgba(255,241,246,.82),rgba(255,241,246,.82)),url("data:image/webp;base64,',
+      'body{background-color:#ffe9f2 !important;background-image:linear-gradient(rgba(255,241,246,.82),rgba(255,241,246,.82)),url("data:image/svg+xml;base64,',
       PATTERN_LIGHT,
       '") !important;background-repeat:repeat,repeat !important;background-size:auto,430px auto !important;background-position:0 0,0 0 !important;background-attachment:fixed,fixed !important}',
-      'body[data-ds-dark-theme]{background-color:#25121c !important;background-image:linear-gradient(rgba(37,18,28,.80),rgba(37,18,28,.80)),url("data:image/webp;base64,',
+      'body[data-ds-dark-theme]{background-color:#25121c !important;background-image:linear-gradient(rgba(37,18,28,.80),rgba(37,18,28,.80)),url("data:image/svg+xml;base64,',
       PATTERN_DARK,
       '") !important}',
     ].join('');
