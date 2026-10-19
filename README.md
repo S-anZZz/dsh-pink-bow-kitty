@@ -15,7 +15,7 @@ A soft pink bow-kitty theme for the [DeepSeek Harness](https://github.com/deepse
 
 This is a standard DSH bundle: `package.json` declares `dsh.bundle` and `dsh.client`, and `cordis.patch.yml` inserts the plugin row.
 
-- From the DSH plugin market: open **Plugins → 插件市场 → Themes** and install **Pink Bow Kitty**.
+- From the DSH plugin market: search for **Pink Bow Kitty** and install it from the Themes tab.
 - Or install this repository as a bundle through the DSH plugin manager.
 
 The theme applies immediately after the client plugin loads. Disable or remove the bundle to restore the stock UI exactly.
