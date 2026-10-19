@@ -1,0 +1,28 @@
+{
+  "name": "dsh-pink-bow-kitty",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A soft pink bow-kitty theme for the DeepSeek Harness Web UI: kitty-print wallpaper, light and dark pink palettes, and matching mascots.",
+  "license": "MIT",
+  "author": "S-anZZz",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S-anZZz/dsh-pink-bow-kitty.git"
+  },
+  "keywords": ["dsh-plugin", "deepseek-harness", "theme", "pink", "kitty"],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": ["index.js", "client.js", "cordis.patch.yml", "locale/*.json", "icon.svg"],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": ["@deepseek-ai/dsh-client-ui-conversation"]
+    }
+  }
+}

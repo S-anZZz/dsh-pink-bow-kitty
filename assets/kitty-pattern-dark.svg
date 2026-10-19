@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="504" height="504" viewBox="0 0 504 504">
+  <defs>
+    <g id="kitty">
+      <g stroke="#f6cfe0" stroke-width="2.4" stroke-linejoin="round">
+        <path d="M21 43 L16 15 L43 30 Z" fill="none"/>
+        <path d="M75 43 L80 15 L53 30 Z" fill="none"/>
+      </g>
+      <path d="M24 37 L22 22 L36 30 Z" fill="#8a4a63"/>
+      <path d="M72 37 L74 22 L60 30 Z" fill="#8a4a63"/>
+      <ellipse cx="48" cy="55" rx="35" ry="30" fill="none" stroke="#f6cfe0" stroke-width="2.4"/>
+      <ellipse cx="36" cy="55" rx="3.3" ry="4.9" fill="#ffe9f3"/>
+      <ellipse cx="60" cy="55" rx="3.3" ry="4.9" fill="#ffe9f3"/>
+      <ellipse cx="48" cy="63" rx="3.5" ry="2.6" fill="#f0c070"/>
+      <ellipse cx="27.5" cy="64" rx="5.2" ry="3.6" fill="#8a4a63"/>
+      <ellipse cx="68.5" cy="64" rx="5.2" ry="3.6" fill="#8a4a63"/>
+      <g stroke="#f6cfe0" stroke-width="2" stroke-linecap="round" fill="none">
+        <path d="M9 52 L25 54"/><path d="M8 60 L25 60"/><path d="M9 68 L25 65"/>
+        <path d="M87 52 L71 54"/><path d="M88 60 L71 60"/><path d="M87 68 L71 65"/>
+      </g>
+      <g stroke="#ffd0e3" stroke-width="2" stroke-linejoin="round">
+        <ellipse cx="17" cy="15" rx="10.5" ry="7.5" fill="#ff9cc4" transform="rotate(-28 17 15)"/>
+        <ellipse cx="33" cy="13" rx="10.5" ry="7.5" fill="#ff9cc4" transform="rotate(28 33 13)"/>
+        <circle cx="25" cy="15" r="4.8" fill="#ff9cc4"/>
+      </g>
+    </g>
+    <pattern id="tile" width="504" height="504" patternUnits="userSpaceOnUse" patternTransform="rotate(-6)">
+      <use href="#kitty" transform="translate(84 84) rotate(-6) translate(-48 -38)"/>
+      <use href="#kitty" transform="translate(252 84) rotate(7) translate(-48 -38)"/>
+      <use href="#kitty" transform="translate(420 84) rotate(-4) translate(-48 -38)"/>
+      <use href="#kitty" transform="translate(84 252) rotate(5) translate(-48 -38)"/>
+      <use href="#kitty" transform="translate(252 252) rotate(-7) translate(-48 -38)"/>
+      <use href="#kitty" transform="translate(420 252) rotate(6) translate(-48 -38)"/>
+      <use href="#kitty" transform="translate(84 420) rotate(7) translate(-48 -38)"/>
+      <use href="#kitty" transform="translate(252 420) rotate(-5) translate(-48 -38)"/>
+      <use href="#kitty" transform="translate(420 420) rotate(4) translate(-48 -38)"/>
+    </pattern>
+  </defs>
+  <rect width="504" height="504" fill="url(#tile)"/>
+</svg>
