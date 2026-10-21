@@ -2,8 +2,8 @@
   "name": "dsh-pink-bow-kitty",
   "version": "1.0.0",
   "type": "module",
-  "description": "A soft pink bow-kitty theme for the DeepSeek Harness Web UI: kitty-print wallpaper, light and dark pink palettes, and matching mascots.",
-  "author": "S-anZZz",
+  "description": "A soft, simple pink theme for DeepSeek Harness: kitty-print wallpaper, light and dark palettes, and two kitty mascots.",
+  "author": "ZCFE327",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/S-anZZz/dsh-pink-bow-kitty.git"
