@@ -28,6 +28,3 @@ Built against the DSH Web client's `theme` token-override service and the docume
 
 All artwork in this repository is original vector art drawn for this plugin: the kitty faces, the repeating wallpaper, and the plugin icon. No third-party characters or images are bundled.
 
-## License
-
-MIT
